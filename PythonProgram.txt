@@ -15,3 +15,35 @@ while count<10:
     if flag==0:
         print numberToCheck;
     numberToCheck=numberToCheck+1;
+
+# Welcome to the Interactive Python Tutorial.
+# Start by choosing a chapter and
+# write your code in this window.
+import math
+
+count=0;
+numberToCheck=2;
+while count<10:
+    number=2;
+    sqrtNumberToCheck=math.sqrt(numberToCheck);
+    flag=0;
+    while number<=sqrtNumberToCheck:
+        if numberToCheck%number==0:
+            flag=1;
+            count=count+1;
+            break;
+        number=number+1;
+    if flag==0:
+        print numberToCheck;
+    numberToCheck=numberToCheck+1;
+    
+class Vehicle:
+    totalVehicle=0;
+    def __init__(self,name,price):
+        self.name=name;
+        self.price=price;
+        Vehicle.totalVehicle=Vehicle.totalVehicle+1;
+    def show(self):
+        print self.name," Car Price is ",self.price," And Total Vehicle on Road is ",Vehicle.totalVehicle;
+                
+m=Vehicle("Maruti",300); 
