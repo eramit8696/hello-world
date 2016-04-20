@@ -1,0 +1,17 @@
+#Program To Calculate Prime Number
+import math
+count=0;
+numberToCheck=2;
+while count<10:
+    number=2;
+    sqrtNumberToCheck=math.sqrt(numberToCheck);
+    flag=0;
+    while number<=sqrtNumberToCheck:
+        if numberToCheck%number==0:
+            flag=1;
+            count=count+1;
+            break;
+        number=number+1;
+    if flag==0:
+        print numberToCheck;
+    numberToCheck=numberToCheck+1;
