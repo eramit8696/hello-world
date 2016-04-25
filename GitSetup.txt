@@ -1,0 +1,578 @@
+Creating Bare repo
+C:\Users\1101477\>mkdir test_repo.git
+
+C:\Users\1101477\>cd test_repo.git
+C:\Users\1101477\test_repo.git>git --bare init
+Initialized empty Git repository in C:/Users/1101477/test
+C:\Users\1101477\test_repo.git>cd ..
+
+C:\Users\1101477>git clone test_repo.git C:\Users\1101477\Desktop\TestGit
+Cloning into 'C:\Users\1101477\Desktop\TestGit'...
+warning: You appear to have cloned an empty repository.
+done.
+
+C:\Users\1101477>cd C:\Users\1101477\Desktop\TestGit
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to
+
+C:\Users\1101477\Desktop\TestGit>edit Test.txt
+
+C:\Users\1101477\Desktop\TestGit>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 9456-6E4C
+
+ Directory of C:\Users\1101477\Desktop\TestGit
+
+04/14/2016  02:35 PM    <DIR>          .
+04/14/2016  02:35 PM    <DIR>          ..
+04/14/2016  02:35 PM                12 Test.txt
+               1 File(s)             12 bytes
+               2 Dir(s)  432,257,581,056 bytes free
+
+C:\Users\1101477\Desktop\TestGit>git add .
+
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Test.txt
+
+
+C:\Users\1101477\Desktop\TestGit>git config --local user.name eramit8696
+C:\Users\1101477\Desktop\TestGit>git config --local user.email er.amit8696@gmail.com
+C:\Users\1101477\Desktop\TestGit>git commit -m "added File Test.txt"
+[master (root-commit) fd6e3d1] added File Test.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working directory clean
+
+C:\Users\1101477\Desktop\TestGit>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To C:/Users/1101477/test_repo.git
+ * [new branch]      master -> master
+
+C:\Users\1101477\Desktop\TestGit>git pull
+Already up-to-date.
+
+C:\Users\1101477\Desktop\TestGit>git push origin master
+Everything up-to-date
+
+C:\Users\1101477\Desktop\TestGit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\1101477\test_repo.git>git --bare init
+Initialized empty Git repository in C:/Users/1101477/test
+
+C:\Users\1101477\test_repo.git>
+C:\Users\1101477\test_repo.git>
+C:\Users\1101477\test_repo.git>
+C:\Users\1101477\test_repo.git>cd ..
+
+C:\Users\1101477>git clone test_repo.git C:\Users\1101477
+Cloning into 'C:\Users\1101477\Desktop\TestGit'...
+warning: You appear to have cloned an empty repository.
+done.
+
+C:\Users\1101477>cd C:\Users\1101477\Desktop\TestGit
+
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to
+
+C:\Users\1101477\Desktop\TestGit>edit
+
+C:\Users\1101477\Desktop\TestGit>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 9456-6E4C
+
+ Directory of C:\Users\1101477\Desktop\TestGit
+
+04/14/2016  02:35 PM    <DIR>          .
+04/14/2016  02:35 PM    <DIR>          ..
+04/14/2016  02:35 PM                12 Test.txt
+               1 File(s)             12 bytes
+               2 Dir(s)  432,257,581,056 bytes free
+
+C:\Users\1101477\Desktop\TestGit>git add .
+
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Test.txt
+
+
+C:\Users\1101477\Desktop\TestGit>git config --local user.
+
+C:\Users\1101477\Desktop\TestGit>git config --local user.
+.com
+
+C:\Users\1101477\Desktop\TestGit>git commit -m "added Fil
+[master (root-commit) fd6e3d1] added File Test.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+C:\Users\1101477\Desktop\TestGit>git status
+On branch master
+Your branch is based on 'origin/master', but the upstream
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working directory clean
+
+C:\Users\1101477\Desktop\TestGit>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To C:/Users/1101477/test_repo.git
+ * [new branch]      master -> master
+
+C:\Users\1101477\Desktop\TestGit>git pull
+Already up-to-date.
+
+C:\Users\1101477\Desktop\TestGit>git push origion master
+fatal: 'origion' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\1101477\Desktop\TestGit>git push origon master
+fatal: 'origon' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\1101477\Desktop\TestGit>git push origin master
+Everything up-to-date
+
+C:\Users\1101477\Desktop\TestGit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
